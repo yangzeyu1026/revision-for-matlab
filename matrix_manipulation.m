@@ -11,3 +11,7 @@ T = M*(N');
 disp(T);
 S = inv(T);
 disp(S);
+A = 1:3;%no need for []
+B = [A;A+5];%two rows
+C = [A,A];%two columns
+disp(A);disp(B);disp(C);
